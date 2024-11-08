@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import styled from '@emotion/styled';
-import AddressBar from './components/AddressBar';
-import NavigationButtons from './components/NavigationButtons';
-import Sidebar from './components/Sidebar';
-import WebView from './components/WebView';
-import ThemeToggle from './components/ThemeToggle';
+import AddressBar from './components/AddressBar.js';
+import NavigationButtons from './components/NavigationButtons.js';
+import Sidebar from './components/Sidebar.js';
+import WebView from './components/WebView.js';
+import ThemeToggle from './components/ThemeToggle.js';
 
 const AppContainer = styled.div`
   display: flex;
